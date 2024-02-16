@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <link rel='stylesheet' href='program.css'>
+</head>
+<title>PVRW Posters B</title>
+<body>
+  <main class="container">
+    <ul id="list">
+    </ul>
+  </main>
+
+</body>
+
+<script src='program-posters-B.js'></script>
+<script type="text/javascript">
+  var list = document.getElementById("list")
+  var topic = document.createElement('li')
+  topic.style.backgroundColor = '#74c476'
+  topic_label = document.createElement('div')
+  topic_label.setAttribute('class', 'topic')
+  topic_label.appendChild(document.createTextNode('Posters B'))
+  topic.appendChild(topic_label)
+  list.appendChild(topic)
+  session_list = document.createElement('ul')
+  for (var poster_ix in program) {
+    session_item = document.createElement('li')
+    
+    label_content = program[poster_ix]['title']
+    if (label_content){
+      session_item.setAttribute('class', 'presentation')
+      session_label = document.createElement('div')
+      session_label.setAttribute('class', 'presentation')
+      session_label.appendChild(document.createTextNode(label_content))
+      session_item.appendChild(session_label)
+
+      author_content = program[poster_ix]['authors']
+      if (author_content){
+        author = document.createElement('div')
+        author.setAttribute('class', 'authors')
+        author.appendChild(document.createTextNode(author_content))
+        session_label.appendChild(author)
+      }
+
+      affiliation_content = program[poster_ix]['affiliation']
+      if (affiliation_content){
+        author = document.createElement('div')
+        author.setAttribute('class', 'affiliation')
+        author.appendChild(document.createTextNode('*' + affiliation_content))
+        session_label.appendChild(author)
+      }
+
+      badge_content = program[poster_ix]['number']
+      if (badge_content){
+        session_item.setAttribute('class', 'with-badge session')
+        badge = document.createElement('span')
+        badge.setAttribute('class', 'badge')
+        badge.appendChild(document.createTextNode(badge_content))
+        session_item.appendChild(badge)
+      }
+
+      if (program[poster_ix]['duramat']){
+        session_item.setAttribute('class', 'with-badge session')
+        badge = document.createElement('span')
+        badge.setAttribute('class', 'badge-right')
+        badge.appendChild(document.createTextNode('DuraMAT'))
+        session_item.appendChild(badge)
+      }
+    }
+    session_list.appendChild(session_item)
+  }
+  topic.appendChild(session_list)
+</script>
+
+</html>
