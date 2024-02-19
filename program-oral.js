@@ -277,8 +277,8 @@ var program = [
         "presentations": [
           {
             "badge": "11:00 AM",
-            "presentation": "Cara Libby, EPRI",
-            "author": "Title TBC",
+            "presentation": "The Element of Surprise: How PV Module Materials May Affect Decision-Making and Recycling/Upcycling Potential",
+            "author": "Cara Libby, EPRI",
             "duramat": false
           }
         ]
