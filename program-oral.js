@@ -162,7 +162,7 @@ var program = [
       },
       {
         "label": "III. Enabling Sustainable Lifecycle Manamgent Practices",
-        "chairs": "Taylor Curtis, NREL",
+        "chairs": "Evelyn Butler, SEIA",
         "presentations": [
           {
             "badge": "3:00 PM",
@@ -177,7 +177,12 @@ var program = [
           },
           {
             "presentation": "David Wager",
-            "author": "ISRI",
+            "author": "Institute for Scrap Recycling Industries",
+            "duramat": false
+          },
+          {
+            "presentation": "Janette Freeman",
+            "author": "FabTech",
             "duramat": false
           }
         ]
@@ -231,7 +236,7 @@ var program = [
         ]
       },
       {
-        "label": "IV. Corporate value in circularity ",
+        "label": "IV. Corporate value from circularity ",
         "chairs": "Lizzy Aldridge, SOLARCYCLE",
         "presentations": [
           {
