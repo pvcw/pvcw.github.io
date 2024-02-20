@@ -32,7 +32,7 @@ var program = [
           {
             "badge": "1:00 PM",
             "presentation": "Tutorial PM: Sustainability in the Solar Energy Transition: an interactive tutorial for evaluating mass and energy metrics",
-            "author": "Dr. Silvana Ovaitt, Dr. Heather Mirletz",
+            "author": "Dr. Silvana Ovaitt, Dr. Heather Mirletz, Dr. Rachel Woods-Robinson",
             "affiliation": "NREL",
             "duramat": false
           }
