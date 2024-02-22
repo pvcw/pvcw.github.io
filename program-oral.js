@@ -184,6 +184,11 @@ var program = [
             "presentation": "Janette Freeman",
             "author": "FabTech",
             "duramat": false
+          },
+          {
+            "presentation": "Tin Nguyen",
+            "author": "Ontility",
+            "duramat": false
           }
         ]
       },
@@ -251,8 +256,8 @@ var program = [
             "duramat": false
           },
           {
-            "presentation": "TBC",
-            "author": "TBC",
+            "presentation": "Nick de Vries",
+            "author": "Silicon Ranch",
             "duramat": false
           },
         ]
