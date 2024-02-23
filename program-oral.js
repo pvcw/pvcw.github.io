@@ -384,6 +384,16 @@ var program = [
       {
         "label": "NREL Tours",
       }
+      {
+        "label": "",
+        "presentations": [
+          {
+            "badge": "11:00 AM",
+            "presentation": "End of Tour",
+            "duramat": false
+          }
+        ]
+      },
     ]
   }
 ]
