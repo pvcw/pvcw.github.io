@@ -383,7 +383,9 @@ var program = [
       },
       {
         "label": "NREL Tours",
-      }
+        "badge": "9:00 AM",
+
+      },
       {
         "label": "",
         "presentations": [
