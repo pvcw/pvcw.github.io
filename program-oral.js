@@ -376,7 +376,7 @@ var program = [
         "presentations": [
           {
             "badge": "8:30 AM",
-            "presentation": "Shuttle departs from Sheraton, Lakewood",
+            "presentation": "Shuttle departs from Sheraton Hotel, Lakewood to NREL",
             "duramat": false
           }
         ]
@@ -390,8 +390,8 @@ var program = [
         "label": "",
         "presentations": [
           {
-            "badge": "11:00 AM",
-            "presentation": "End of Tour",
+            "badge": "11:15 AM",
+            "presentation": "Shuttle departs to Sheraton Hotel, Lakewood to NREL",
             "duramat": false
           }
         ]
