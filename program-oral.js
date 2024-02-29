@@ -330,18 +330,24 @@ var program = [
           }
         ]
       },
+
       {
-        "label": "",
+        "label": "Coffee Break & Poster Session",
         "presentations": [
           {
             "badge": "2:30 PM",
-            "presentation": "Coffee Break",
+            "presentation": "See the poster listing here",
+            "url": "program-posters-A.html",
             "duramat": false
           }
         ]
       },
       {
         "label": "BREAK OUT SESSION",
+        "presentations": [
+          {
+            "badge": "3:10 PM",
+          }]
       },
       {
         "label": "",
