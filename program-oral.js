@@ -144,6 +144,11 @@ var program = [
             "duramat": false
           },
           {
+            "presentation": "Rich Stromberg",
+            "author": "Equitable Solar Solutions/Univ of Alaska Fairbanks",
+            "duramat": false
+          },
+          {
             "presentation": "Julien Walzberg",
             "author": "NREL",
             "duramat": false
