@@ -1,46 +1,5 @@
 var program = [
   {
-    "id": "Sun",
-    "label": "Sun 3 Mar",
-    "color": "#00FFFF",
-    "sessions": [
-      {
-        "label": "",
-        "presentations": [
-          {
-            "badge": "9:00 AM",
-            "presentation": "Tutorial AM: Sustainable Solar Futures: Mastering LCA, Criticality Metrics, and Material Flow Analysis in Photovoltaics",
-            "author": "Dr. Annick Anctil, Dr. Preeti Nain, Luyao Yuan",
-            "affiliation": "Michigan State University",
-            "duramat": false
-          }
-        ]
-      },
-      {
-        "label": "",
-        "presentations": [
-          {
-            "badge": "12:00 PM",
-            "presentation": "Lunch",
-            "duramat": false
-          }
-        ]
-      },
-      {
-        "label": "",
-        "presentations": [
-          {
-            "badge": "1:00 PM",
-            "presentation": "Tutorial PM: Sustainability in the Solar Energy Transition: an interactive tutorial for evaluating mass and energy metrics",
-            "author": "Dr. Silvana Ovaitt, Dr. Heather Mirletz, Dr. Rachel Woods-Robinson",
-            "affiliation": "NREL",
-            "duramat": false
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "Mon",
     "label": "Mon 4 Mar",
     "color": "#40E0D0",
@@ -407,6 +366,47 @@ var program = [
           }
         ]
       },
+    ]
+  },
+  {
+    "id": "Sun (PAST)",
+    "label": "Sun 3 Mar (PAST)",
+    "color": "#00FFFF",
+    "sessions": [
+      {
+        "label": "",
+        "presentations": [
+          {
+            "badge": "9:00 AM",
+            "presentation": "Tutorial AM: Sustainable Solar Futures: Mastering LCA, Criticality Metrics, and Material Flow Analysis in Photovoltaics",
+            "author": "Dr. Annick Anctil, Dr. Preeti Nain, Luyao Yuan",
+            "affiliation": "Michigan State University",
+            "duramat": false
+          }
+        ]
+      },
+      {
+        "label": "",
+        "presentations": [
+          {
+            "badge": "12:00 PM",
+            "presentation": "Lunch",
+            "duramat": false
+          }
+        ]
+      },
+      {
+        "label": "",
+        "presentations": [
+          {
+            "badge": "1:00 PM",
+            "presentation": "Tutorial PM: Sustainability in the Solar Energy Transition: an interactive tutorial for evaluating mass and energy metrics",
+            "author": "Dr. Silvana Ovaitt, Dr. Heather Mirletz, Dr. Rachel Woods-Robinson",
+            "affiliation": "NREL",
+            "duramat": false
+          }
+        ]
+      }
     ]
   }
 ]
