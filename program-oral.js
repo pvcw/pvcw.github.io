@@ -2,135 +2,33 @@ var program = [
   {
     "id": "Tue",
     "label": "Tue 5 Mar",
-    "color": "#008080",
+    "color": "#6baed6",
     "sessions": [
-      {
-        "label": "",
-        "presentations": [
-          {
-            "badge": "7:30 AM",
-            "presentation": "Breakfast",
-            "duramat": false
-          }
-        ]
-      },
-      {
-        "label": "",
-        "presentations": [
-          {
-            "badge": "8:30 AM",
-            "presentation": "Welcome Day 2",
-            "duramat": false
-          }
-        ]
-      },
-      {
-        "label": "IV. Corporate value from circularity ",
-        "chairs": "Lizzy Aldridge, SOLARCYCLE",
-        "presentations": [
-          {
-            "badge": "8:45 AM",
-            "presentation": "Vidha Dixit",
-            "author": "EDP",
-            "duramat": false
-          },
-          {
-            "presentation": "Kelly Weger",
-            "author": "Q Cells",
-            "duramat": false
-          },
-          {
-            "presentation": "Nick de Vries",
-            "author": "Silicon Ranch",
-            "duramat": false
-          },
-        ]
-      },
-      {
-        "label": "",
-        "presentations": [
-          {
-            "badge": "9:45 AM",
-            "presentation": "Coffee Break",
-          }
-        ]
-      },
-      {
-        "label": "",
-        "presentations": [
-          {
-            "badge": "10:40 AM",
-            "presentation": "Magdi Azer, CTO, Remade Institute",
-            "author": "Title TBC",
-            "duramat": false
-          }
-        ]
-      },
-      {
-        "label": "",
-        "presentations": [
-          {
-            "badge": "11:10 AM",
-            "presentation": "The Element of Surprise: How PV Module Materials May Affect Decision-Making and Recycling/Upcycling Potential",
-            "author": "Cara Libby, EPRI",
-            "duramat": false
-          }
-        ]
-      },
-      {
-        "label": "",
-        "presentations": [
-          {
-            "badge": "12:00 PM",
-            "presentation": "Buffet Lunch",
-            "duramat": false
-          }
-        ]
-      },
-      {
-        "label": "V. Standards as catalysts for driving circularity",
-        "chairs": "Karen Drozdiak, First Solar",
-        "presentations": [
-          {
-            "badge": "1:00 PM",
-            "presentation": "Mike Easterbrook",
-            "author": "SERI",
-            "duramat": false
-          },
-          {
-            "presentation": "Evelyn Butler",
-            "author": "Solar Energy Industries Association",
-            "duramat": false
-          },
-          {
-            "presentation": "Rich Stromberg",
-            "author": "Equitable Solar Solutions/Univ of Alaska Fairbanks",
-            "duramat": false
-          },
-          {
-            "presentation": "Mar\u00eda de las Nieves Espinosa Mart\u00ednez",
-            "author": "Univercidad de Murcia",
-            "duramat": false
-          }
-        ]
-      },
-
-      {
-        "label": "Coffee Break & Poster Session",
-        "presentations": [
-          {
-            "badge": "2:30 PM",
-            "presentation": "See the poster listing here",
-            "url": "program-posters-A.html",
-            "duramat": false
-          }
-        ]
-      },
       {
         "label": "BREAK OUT SESSION",
         "presentations": [
           {
-            "badge": "3:10 PM",
+            "badge": "3:00 PM",
+            "presentation": "1. Barriers for PV circularity",
+            "author": "What technical, market, information, and regulatory barriers exist?; What barriers intersect PV deployment and PV circularity (e.g., toxicity concerns/hazardous waste determinations)? "
+          },
+          {
+            "badge": "3:20 PM",
+            "presentation": "2. Research Communication Needs for PV circularity",
+            "author": "Toxicity and Hazardous waste determinations; Communication, what can alleviate concerns?; Recycled content; embodied energy and carbon; Responsible material sourcing"
+          },
+          {
+            "badge": "3:35 PM",
+            "presentation": "3. Policy Dials that may incentivize or negatively impact sustainable PV deployment, manufacturing, and circular pathways",
+            "author": "What market enabling information/data is needed?; Standards"
+           },
+          {
+            "badge": "4:00 PM",
+            "presentation": "Working groups present their conclusions"
+          },
+          {
+            "badge": "4:25 PM",
+            "presentation": "Workshop closing"
           }]
       },
       {
@@ -408,5 +306,134 @@ var program = [
         ]
       }
     ]
-  }
+  },
+  {
+    "id": "Tue (PAST)",
+    "label": "Tue 5 Mar (PAST)",
+    "color": "#008080",
+    "sessions": [
+      {
+        "label": "",
+        "presentations": [
+          {
+            "badge": "7:30 AM",
+            "presentation": "Breakfast",
+            "duramat": false
+          }
+        ]
+      },
+      {
+        "label": "",
+        "presentations": [
+          {
+            "badge": "8:30 AM",
+            "presentation": "Welcome Day 2",
+            "duramat": false
+          }
+        ]
+      },
+      {
+        "label": "IV. Corporate value from circularity ",
+        "chairs": "Lizzy Aldridge, SOLARCYCLE",
+        "presentations": [
+          {
+            "badge": "8:45 AM",
+            "presentation": "Vidha Dixit",
+            "author": "EDP",
+            "duramat": false
+          },
+          {
+            "presentation": "Kelly Weger",
+            "author": "Q Cells",
+            "duramat": false
+          },
+          {
+            "presentation": "Nick de Vries",
+            "author": "Silicon Ranch",
+            "duramat": false
+          },
+        ]
+      },
+      {
+        "label": "",
+        "presentations": [
+          {
+            "badge": "9:45 AM",
+            "presentation": "Coffee Break",
+          }
+        ]
+      },
+      {
+        "label": "",
+        "presentations": [
+          {
+            "badge": "10:40 AM",
+            "presentation": "Magdi Azer, CTO, Remade Institute",
+            "author": "Title TBC",
+            "duramat": false
+          }
+        ]
+      },
+      {
+        "label": "",
+        "presentations": [
+          {
+            "badge": "11:10 AM",
+            "presentation": "The Element of Surprise: How PV Module Materials May Affect Decision-Making and Recycling/Upcycling Potential",
+            "author": "Cara Libby, EPRI",
+            "duramat": false
+          }
+        ]
+      },
+      {
+        "label": "",
+        "presentations": [
+          {
+            "badge": "12:00 PM",
+            "presentation": "Buffet Lunch",
+            "duramat": false
+          }
+        ]
+      },
+      {
+        "label": "V. Standards as catalysts for driving circularity",
+        "chairs": "Karen Drozdiak, First Solar",
+        "presentations": [
+          {
+            "badge": "1:00 PM",
+            "presentation": "Mike Easterbrook",
+            "author": "SERI",
+            "duramat": false
+          },
+          {
+            "presentation": "Evelyn Butler",
+            "author": "Solar Energy Industries Association",
+            "duramat": false
+          },
+          {
+            "presentation": "Rich Stromberg",
+            "author": "Equitable Solar Solutions/Univ of Alaska Fairbanks",
+            "duramat": false
+          },
+          {
+            "presentation": "Nieves Espinosa",
+            "author": "Universidad de Murcia",
+            "duramat": false
+          }
+        ]
+      },
+
+      {
+        "label": "Coffee Break & Poster Session",
+        "presentations": [
+          {
+            "badge": "2:30 PM",
+            "presentation": "See the poster listing here",
+            "url": "program-posters-A.html",
+            "duramat": false
+          }
+        ]
+      }
+    ]
+  },
 ]
