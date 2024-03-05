@@ -10,17 +10,14 @@ var program = [
           {
             "badge": "3:00 PM",
             "presentation": "1. Barriers for PV circularity",
-            "author": "What technical, market, information, and regulatory barriers exist?; What barriers intersect PV deployment and PV circularity (e.g., toxicity concerns/hazardous waste determinations)? "
           },
           {
             "badge": "3:20 PM",
             "presentation": "2. Research Communication Needs for PV circularity",
-            "author": "Toxicity and Hazardous waste determinations; Communication, what can alleviate concerns?; Recycled content; embodied energy and carbon; Responsible material sourcing"
           },
           {
             "badge": "3:35 PM",
-            "presentation": "3. Policy Dials that may incentivize or negatively impact sustainable PV deployment, manufacturing, and circular pathways",
-            "author": "What market enabling information/data is needed?; Standards"
+            "presentation": "3. Policy Dials that may incentivize (or negatively impact) sustainable PV deployment, manufacturing, and circular pathways",
            },
           {
             "badge": "4:00 PM",
