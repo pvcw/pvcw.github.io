@@ -1,91 +1,7 @@
 var program = [
   {
-    "id": "Tue",
-    "label": "Tue 5 Mar",
-    "color": "#6baed6",
-    "sessions": [
-      {
-        "label": "BREAK OUT SESSION",
-        "presentations": [
-          {
-            "badge": "3:00 PM",
-            "presentation": "1. Barriers for PV circularity",
-          },
-          {
-            "badge": "3:20 PM",
-            "presentation": "2. Research Communication Needs for PV circularity",
-          },
-          {
-            "badge": "3:35 PM",
-            "presentation": "3. Policy Dials that may incentivize (or negatively impact) sustainable PV deployment, manufacturing, and circular pathways",
-           },
-          {
-            "badge": "4:00 PM",
-            "presentation": "Working groups present their conclusions"
-          },
-          {
-            "badge": "4:25 PM",
-            "presentation": "Workshop closing"
-          }]
-      },
-      {
-        "label": "",
-        "presentations": [
-          {
-            "badge": "4:30 PM",
-            "presentation": "Adjourn",
-            "duramat": false
-          }
-        ]
-      },
-      {
-        "label": "",
-        "presentations": [
-          {
-            "badge": "6:00 PM",
-            "presentation": "No host dinner at Zeppelin Station",
-            "author": "3501 Wazee St., Ste 100, Denver CO",
-            "duramat": false
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "Wed",
-    "label": "Wed 6 Mar",
-    "color": "#6baed6",
-    "sessions": [
-      {
-        "label": "",
-        "presentations": [
-          {
-            "badge": "8:30 AM",
-            "presentation": "Shuttle departs from Sheraton Hotel, Lakewood to NREL",
-            "duramat": false
-          }
-        ]
-      },
-      {
-        "label": "NREL Tours",
-        "badge": "9:00 AM",
-
-      },
-      {
-        "label": "",
-        "presentations": [
-          {
-            "badge": "11:15 AM",
-            "presentation": "Shuttle departs to Sheraton Hotel, Lakewood to NREL",
-            "duramat": false
-          }
-        ]
-      },
-    ]
-  },
-  {
-    "id": "Sun (PAST)",
-    "label": "Sun 3 Mar (PAST)",
+    "id": "Sun",
+    "label": "Sun 3 Mar",
     "color": "#00FFFF",
     "sessions": [
       {
@@ -305,8 +221,8 @@ var program = [
     ]
   },
   {
-    "id": "Tue (PAST)",
-    "label": "Tue 5 Mar (PAST)",
+    "id": "Tue",
+    "label": "Tue 5 Mar",
     "color": "#008080",
     "sessions": [
       {
@@ -428,9 +344,81 @@ var program = [
             "presentation": "See the poster listing here",
             "url": "program-posters-A.html",
             "duramat": false
+          },
+          {
+            "badge": "3:00 PM",
+            "presentation": "1. Barriers for PV circularity",
+          },
+          {
+            "badge": "3:20 PM",
+            "presentation": "2. Research Communication Needs for PV circularity",
+          },
+          {
+            "badge": "3:35 PM",
+            "presentation": "3. Policy Dials that may incentivize (or negatively impact) sustainable PV deployment, manufacturing, and circular pathways",
+           },
+          {
+            "badge": "4:00 PM",
+            "presentation": "Working groups present their conclusions"
+          },
+          {
+            "badge": "4:25 PM",
+            "presentation": "Workshop closing"
+          }]
+      },
+      {
+        "label": "",
+        "presentations": [
+          {
+            "badge": "4:30 PM",
+            "presentation": "Adjourn",
+            "duramat": false
+          }
+        ]
+      },
+      {
+        "label": "",
+        "presentations": [
+          {
+            "badge": "6:00 PM",
+            "presentation": "No host dinner at Zeppelin Station",
+            "author": "3501 Wazee St., Ste 100, Denver CO",
+            "duramat": false
           }
         ]
       }
+    ]
+  },
+  {
+    "id": "Wed",
+    "label": "Wed 6 Mar",
+    "color": "#6baed6",
+    "sessions": [
+      {
+        "label": "",
+        "presentations": [
+          {
+            "badge": "8:30 AM",
+            "presentation": "Shuttle departs from Sheraton Hotel, Lakewood to NREL",
+            "duramat": false
+          }
+        ]
+      },
+      {
+        "label": "NREL Tours",
+        "badge": "9:00 AM",
+
+      },
+      {
+        "label": "",
+        "presentations": [
+          {
+            "badge": "11:15 AM",
+            "presentation": "Shuttle departs to Sheraton Hotel, Lakewood to NREL",
+            "duramat": false
+          }
+        ]
+      },
     ]
   },
 ]
